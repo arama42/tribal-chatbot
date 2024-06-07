@@ -20,7 +20,6 @@ def app():
     st.markdown("""
                 <style>
                 #MainMenu {visibility: hidden;}
-                header {visibility: hidden;}
                 </style>
                 """, unsafe_allow_html=True)
     if "OPENAI_API_KEY" not in os.environ:
