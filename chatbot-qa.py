@@ -19,7 +19,7 @@ with gr.Blocks() as demo:
     print(my_docs)
 
     if "OPENAI_API_KEY" not in os.environ:
-        os.environ["OPENAI_API_KEY"] = "sk-proj-OpJot339ZhYzxzGl67UDT3BlbkFJOxlGexIVsPTsHmXuefRI"
+        os.environ["OPENAI_API_KEY"] = "test"
 
     docs = Docs(llm='gpt-3.5-turbo')
     for d in my_docs:
